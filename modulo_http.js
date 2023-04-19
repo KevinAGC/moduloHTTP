@@ -14,6 +14,6 @@ const server = http.createServer((req,res)=>{
     res.end('Hola mundo\n');
 });
 
-server.listen(post,hostname, ()=>{
-    console.log(`El servidor se esta ejecutando en http://${hostname}:$port/`);
+server.listen(port,hostname, ()=>{
+    console.log(`El servidor se esta ejecutando en http://${hostname}:${port}/`);
 })
